@@ -1,0 +1,54 @@
+1. Functional Requirements:
+The system must read sales data from a CSV file.
+The system must clean the dataset by removing missing and duplicate records.
+The system must calculate total sales revenue and total quantity sold.
+The system must analyze sales performance by region, monthly income, top customer, etc. 
+The system must export formatted analysis results and insights into CSV files.
+
+2. Non-Functional Requirements:
+The program should be easy to understand and maintain.
+The analysis should be completed within a reasonable execution time.
+The output CSV files should be well-structured and readable.
+The system should be platform-independent.
+The solution should use standard and reliable libraries.
+
+3. Software Requirements:
+Operating System: Windows
+Programming Language: Python 3.14
+Libraries:
+Pandas (for data analysis)
+Matplotlib
+Development Tools:
+Jupyter Notebook 
+
+3. Data Understanding Requirements:
+Ability to understand the dataset structure (rows, columns, data types)
+Knowledge of what each variable represents (categorical vs numerical)
+
+4. Data Preprocessing Requirements:
+Handling missing or null values
+Detecting and treating outliers
+Encoding categorical variables (label encoding, one-hot encoding)
+Data normalization or standardization if required.
+
+7. User Requirements:
+Programming Knowledge
+	Python or R fundamentals
+	Data handling libraries (Pandas, NumPy)
+	Statistical libraries (SciPy, StatsModels)
+	Data visualization tools (Matplotlib, Seaborn)
+
+8. Data Analysis Skills:
+Data cleaning and transformation
+Exploratory Data Analysis (EDA)
+Feature understanding and selection
+
+9. Domain Knowledge
+Understanding the domain of the dataset (e.g., customer churn, finance, healthcare)
+Ability to connect statistical results to real-world meaning
+
+8. Constraints
+The project analyzes only the provided dataset.
+Insights depend on the accuracy of the input data.
+Visualization depends on the given data and how the user select the form of the chart.
+
